@@ -34,6 +34,7 @@ while True:
     # print "Key length:", length
     if length < 10 or length > 1000000000:
         print 'Wrong length'
+        continue
 
     data = source.read(length)
     # TODO check CRC

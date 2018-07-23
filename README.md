@@ -1,5 +1,6 @@
 # casumper
-Cassandra 0.6 commitlog extractor. Casumper can be used to dump pairs of table:key from cassandra 0.6 CommitLog-*.log.
+Cassandra 0.6 commitlog extractor/dumper.  
+Casumper can be used to dump pairs of table:key from cassandra 0.6 CommitLog-*.log.
 
 Usages: 
 1. Print pairs table:key of row mutations

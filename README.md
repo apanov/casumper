@@ -8,14 +8,13 @@ Usages:
 cat CommitLog-1532176199996.log | python -u casumper.py
 ```
 
-2. Find frequently keys by table
+2. Find frequent keys in table
 ```
 cat CommitLog-1532176199996.log | python -u casumper.py | sort | uniq -c | sort -n
 ```
 
-3. Find frequently keys by table for multiple commit logs
+3. Find frequent keys in table for multiple commit logs
 ```
 find CommitLog-*.log | xargs cat | python -u casumper.py >> /tmp/commitlog-pairs.log
 less /tmp/commitlog-pairs.log | sort | uniq -c | sort -n
 ```
-
